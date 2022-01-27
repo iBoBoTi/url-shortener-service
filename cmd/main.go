@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
+	"github.com/joho/godotenv"
 )
 
 func setUpRoutes(app *fiber.App) {
@@ -10,5 +11,6 @@ func setUpRoutes(app *fiber.App) {
 }
 
 func main() {
+	err := godotenv.Load()
 	app := fiber.New()
 }
