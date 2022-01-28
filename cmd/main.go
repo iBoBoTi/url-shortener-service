@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	"github.com/iBoBoTi/url-shortener/api/routes"
 	"github.com/joho/godotenv"
 	"log"
 	"os"
